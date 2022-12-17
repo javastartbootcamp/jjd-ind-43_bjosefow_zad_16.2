@@ -35,7 +35,7 @@ public class ExampleTest {
 
         // then
         assertThat(outContent.toString()).contains("Czas lokalny: 2022-10-23 14:15:51");
-        assertThat(outContent.toString()).contains("UTC: 2022-10-23 12:15:51");
+        assertThat(outContent.toString()).contains("UTC: 2022-10-23 13:15:51");
         assertThat(outContent.toString()).contains("Londyn: 2022-10-23 13:15:51");
         assertThat(outContent.toString()).contains("Los Angeles: 2022-10-23 05:15:51");
         assertThat(outContent.toString()).contains("Sydney: 2022-10-23 23:15:51");
